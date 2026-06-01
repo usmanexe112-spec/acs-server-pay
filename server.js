@@ -2,7 +2,7 @@ const https = require("https");
 const http  = require("http");
 
 // ── PhonePe Production Credentials ─────────────────────────────────────────
-const CLIENT_ID      = process.env.PHONEPE_CLIENT_ID      || "SU26052712194834440801383";
+const CLIENT_ID      = process.env.PHONEPE_CLIENT_ID      || "SU2605271219483440801383";
 const CLIENT_SECRET  = process.env.PHONEPE_CLIENT_SECRET  || "00f6cf0e-d4a0-40b5-a5b6-45235fdee885";
 const CLIENT_VERSION = process.env.PHONEPE_CLIENT_VERSION || "1";
 const SITE_URL       = process.env.SITE_URL               || "https://affluentconsultancy.in";
